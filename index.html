@@ -26,6 +26,7 @@
 
     h2 {
       margin-top: 0px;
+      margin-bottom: 0px;
       font-family: 'Reem Kufi Fun', sans-serif;
     }
 
@@ -37,33 +38,35 @@
     } */
 
     .content {
-      display: flex;
+      /* display: flex;
       min-width: 0;
       align-items: flex-start;
-      /* margin-bottom: 0px; */
+      margin-bottom: 0px; */
     }
 
     .photo {
-      width: 40%;
+      float: left;
+      margin-right: 25px;
+      margin-bottom: 5px;
     }
 
-    .txtcont {
-      width: 60%;
-      padding-left: 20px;
+    .txtcont p {
+      margin-left: 5px;
     }
 
-    .lowerp {
-      /* margin-top: -5px; */
+    .upperp {
+      /* margin-top: 5px; */
     }
     
     img {
       width: 100%; 
       height: auto;
+      max-width: 40vw;
     }
 
-    @media only screen and (max-width: 600px) {
-      .lowp{
-        display: none;
+    @media only screen and (max-width: 590px) {
+      body {
+        margin: 1rem;
       }
     }
   </style>
@@ -76,12 +79,12 @@
     </div>
     <div class="txtcont">
       <h2>Racing Career</h2>
-      <p>Sir Lewis Hamilton (born in 1985) is Formula One racing driver from United Kingdom, currently racing for Mercedes-AMG Petronas F1 Team. He has 7 Formula One World Championship titles (currently tied with Michael Schumacher).</p>
+      <p class="upperp">Sir Lewis Hamilton (born in 1985) is Formula One racing driver from United Kingdom, currently racing for Mercedes-AMG Petronas F1 Team. He has 7 Formula One World Championship titles (currently tied with Michael Schumacher).</p>
       <p class="lowp">He began his Formula One racing career at McLaren in 2007. He raced along with two times and reigning champion Fernando Alonso. Hamilton finished second in his debut season, losing title by 1 point.</p>
+      <p class="lowerp">Next season, he won his maiden championship by overtaking at last corner of the track at last lap of the last race of season. He continued to race with the McLaren until end of 2012 season. After several car failures in 2012, he decided moved to the Mercedes F1 team in 2013.</p>    
+      <p>Over the course of years, Hamilton won 6 more world titles with Mercedes along with several other records and still continues to compete with the team.</p>   
     </div>
   </div>
-  <p class="lowerp">Next season, he won his maiden championship by overtaking at last corner of the track at last lap of the last race of season. He continued to race with the McLaren until end of 2012 season. After several car failures in 2012, he decided moved to the Mercedes F1 team in 2013.</p>    
-  <p>Over the course of years, Hamilton won 6 more world titles with Mercedes along with several other records and still continues to compete with the team.</p>   
   <h2>Records</h2>
   <ul>
     <li>Tied for most World Championship Title</li>
